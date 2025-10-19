@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+</head>
+<body>
+
+      <div class="container">
+        <div class="menu">
+            
+            <div class="menu-time">
+                <h2 style="color: red;">Time Left</h2>
+                <h2 class="second" id="time-left">0</h2>
+            </div>
+            <div class="menu-score">
+                <h2 style="color: red;">Score</h2>
+                <h2 class="second" id="score">0</h2>
+            </div>
+            <div class="menu-lives">
+                <img src="./src/images/player.png" alt="Foto do Jogador" height="50px"/>
+                <h2 id="live">x3</h2>
+            </div>
+
+        </div>
+
+        <div class="panel">
+            <div class="panel-row">
+                <div class="square" id="1"></div>
+                <div class="square enemy" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+
+              <div class="panel-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+              <div class="panel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <h1 class="cabeçalho">
+            Desenvolvido por Richard Azambuja!
+        </h1>
+        <p class="cabeçalho1">Tecnologias utilizadas:
+        </p>
+        <div class="icons">
+            <img class="icon1" src="./src/images/html-5.png" alt="ícone HTML">
+            <img class="icon2" src="./src/images/css-3.png" alt="ícone CSS">
+            <img class="icon3" src="./src/images/js.png" alt="ícone JS">
+        </div>
+    </div>
+
+    <div class="redes">
+        <a href="https://www.instagram.com/richard_azambujaa">Instagram</a>
+        <a href="https://www.linkedin.com/in/richard-azambuja/">linkedin</a>
+        <a href="https://github.com/richardazambuja">GitHub</a>
+    </div>
+
+    <script defer src="./src/scripts/engine.js"></script>
+</body>
+</html>
